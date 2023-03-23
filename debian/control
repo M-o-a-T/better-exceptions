@@ -5,7 +5,6 @@ Priority: optional
 Build-Depends: dh-python, python3-setuptools, python3-all, debhelper (>= 9)
 Standards-Version: 3.9.6
 Homepage: https://github.com/qix-/better-exceptions
-Homepage: https://github.com/qix-/better-exceptions
 
 Package: python3-better-exceptions
 Architecture: all

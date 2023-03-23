@@ -4,7 +4,7 @@
 # Thu, 23 Mar 2023 12:03:23 +0100
 export PYBUILD_NAME=better-exceptions
 %:
-	dh $@ --with python3 --buildsystem=python_distutils
+	dh $@ --with python3 --buildsystem=pybuild
 
 override_dh_auto_install:
 	python3 setup.py install --force --root=debian/python3-better-exceptions --no-compile -O0 --install-layout=deb  

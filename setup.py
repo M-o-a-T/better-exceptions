@@ -56,6 +56,7 @@ setup(
     packages = ['better_exceptions', 'better_exceptions.integrations'],
     version = version,
     description = 'Pretty and helpful exceptions, automatically',
+    long_description = 'Pretty and helpful exceptions, automatically',
     author = 'Josh Junon',
     author_email = 'josh@junon.me',
     url = 'https://github.com/qix-/better-exceptions',
