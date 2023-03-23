@@ -1,3 +1,9 @@
+better-exceptions (0.3.3.1-1) smurf; urgency=medium
+
+  * Drop support for Python 2.x.
+
+ -- Matthias Urlichs <matthias@urlichs.de>  Thu, 23 Mar 2023 12:07:32 +0100
+
 better-exceptions (0.3.3-1) smurf; urgency=low
 
   * source package automatically created by stdeb 0.10.0
